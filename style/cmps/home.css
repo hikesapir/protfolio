@@ -1,5 +1,28 @@
-.img-container{
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.home .img-container {
     width: 150px;
     aspect-ratio: 1;
+}
+
+.home .img-container img {
     border-radius: 50%;
+}
+
+.home p.code-sign {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--main-color);
+}
+
+@media (min-width:1200px) {
+    .home .img-container {
+        width: 300px;
+    }
 }

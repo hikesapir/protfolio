@@ -3,25 +3,13 @@
 @import './basics/layout.css';
 
 /* BASICS */
+@import "./basics/fonts.css";
 @import "./basics/base.css";
 @import './basics/helpers.css';
 
 /* CMPS */
 @import "./cmps/header.css";
 @import "./cmps/home.css";
+@import "./cmps/about.css";
 
 
-/* SECTIONS */
-.home,
-.skills,
-.conect {
-    height: 100vh;
-}
-
-.skills {
-    background-color: lightblue;
-}
-
-.header-shadow {
-    box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.2);
-}

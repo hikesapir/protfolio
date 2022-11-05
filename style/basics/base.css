@@ -2,10 +2,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 html {
+    font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--text-color);
+    scroll-behavior: smooth;
+}
+
+section:nth-child(2n) {
+    background-color: var(--text-color);
+    color: var(--white);
 }
 
 ul {
@@ -28,9 +36,10 @@ a {
 
 section {
     padding-top: 3rem;
+    min-height: 100vh;
 }
 
-img{
+img {
     width: 100%;
     object-fit: contain;
 }

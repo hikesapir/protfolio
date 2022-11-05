@@ -1,9 +1,11 @@
 header {
+    background-color: var(--white);
     position: fixed;
     top: 0;
     left: 0;
     transition: box-shadow 0.3s;
     width: 100%;
+    font-weight: bold;
 }
 
 header nav {
@@ -19,9 +21,19 @@ header nav div {
 
 header nav a{
     height: 100%;
-    padding: 1rem;
+    padding: 1rem 0.5rem;
 }
 
 header nav a:hover{
     background-color: rgba(255, 255, 255,0.4);
+}
+
+.header-shadow {
+    box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width:450px) {
+    header nav a{
+        padding: 1rem;
+    }
 }
