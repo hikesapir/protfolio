@@ -1,0 +1,26 @@
+.skills {
+    text-align: center;
+}
+
+.skills h1 {
+    margin-bottom: 3rem;
+}
+
+.skills .skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2rem;
+}
+
+.skills .skills-container .skill-preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:450px) {
+    .skills .skills-container {
+        grid-template-columns: repeat(3, auto);
+    }
+}
